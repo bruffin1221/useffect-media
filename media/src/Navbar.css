@@ -1,0 +1,24 @@
+.navbar{
+    box-sizing: border-box;
+    height:15%;
+    width: 100%;
+    text-align: center
+    
+}
+
+.navbar p{
+    position: relative;
+    top: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-weight: 600;
+    transition: 2s all ease;
+    cursor: pointer; 
+ 
+}
+
+.navbar p:hover{
+    color: rgb(105, 102, 102)
+
+}
+

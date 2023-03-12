@@ -1,0 +1,240 @@
+body{
+    background: rgb(105, 102, 102)
+}
+
+#container{
+    display: flex;
+    flex-direction: row
+}
+
+#navigation{
+    display: flex;
+    flex-direction: column;
+    background: maroon;
+    margin-top:-1%;
+    height: 102vh;
+    width: 10vw;
+    border: 2px black solid
+}
+
+#pages{
+    box-sizing: border-box;
+    width: 100%; 
+    height: 50%
+}
+
+#social{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    height: 50%
+    
+}
+
+#picture{
+    background-image: url("./workout2.jpg");
+    background-position: center center;
+    margin-top: -1%;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 102.2vh;
+    border-bottom: 2px black solid;
+    border-right: 2px black solid
+}
+
+#web-page{
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 70%;
+    width: 20%
+}
+
+#web{
+    margin-top: 20%;
+    background: maroon;
+    box-sizing: border-box;
+    width: 100%;
+    height: 25%
+}
+#delete1{
+    text-align: right;
+    margin-right: 3%;
+    font-size: 90%;
+    color: blue;
+    margin-bottom: 1px;
+    cursor: pointer;
+    transition: 1s all ease
+}
+
+#delete1:hover{
+    color: gray
+}
+   
+.web2{
+    margin-top: 48%;
+    background: maroon;
+    box-sizing: border-box;
+    width: 100%;
+    height: 25%
+}
+
+#delete2{
+    text-align: right;
+    margin-right: 3%;
+    font-size: 90%;
+    color: blue;
+    margin-bottom: 1px;
+    cursor: pointer;
+    transition: 1s all ease
+}
+
+#delete2:hover{
+    color: gray
+}
+
+.web3{
+    margin-top: 80%;
+    background: maroon;
+    box-sizing: border-box;
+    width: 100%;
+    height: 25%
+}
+
+#delete3{
+    text-align: right;
+    margin-right: 3%;
+    font-size: 90%;
+    color: blue;
+    margin-bottom: 1px;
+    cursor: pointer;
+    transition: 1s all ease
+}
+
+#delete3:hover{
+    color: gray
+}
+
+.web4{
+    margin-top: 105%;
+    background:maroon;
+    box-sizing: border-box;
+    width: 100%;
+    height: 25%
+}
+
+#delete4{
+    text-align: right;
+    margin-right: 3%;
+    font-size: 90%;
+    color: blue;
+    margin-bottom: 1px;
+    cursor: pointer;
+    transition: 1s all ease
+}
+
+#delete4:hover{
+    color: gray
+}
+
+.web5{
+    margin-top: 135%;
+    background:maroon;
+    box-sizing: border-box;
+    width: 100%;
+    height: 25%
+}
+
+#delete5{
+    text-align: right;
+    margin-right: 3%;
+    font-size: 90%;
+    color: blue;
+    margin-bottom: 1px;
+    cursor: pointer;
+    transition: 1s all ease
+}
+
+#delete5:hover{
+    color: gray
+}
+
+#container2{
+    width:100%; 
+    height: 101vh;
+    background: black
+}
+
+#navigation2{
+    background: maroon;
+    height: 15%;
+    width: 100%
+}
+
+#picture2{
+    background-image: url("./workout2.jpg");
+    background-position: center center;
+    margin-top: -1%;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    border-top: 3px black solid;
+}
+
+#nav-box{
+    box-sizing: border-box;
+    position: relative;
+    top: 20%;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    transition: 2s all ease
+}
+
+.nav{
+    width: 100%;
+    height: 30%;
+    border-top: 5px black solid
+}
+
+#nav-box:hover{
+    transform: rotate(90deg)
+}
+
+#dropdown{
+    background: maroon;
+    height:37%;
+    width: 100%;
+    text-align: center
+}
+
+#dropdown p{
+    font-size: 120%;
+    font-weight: 600;
+    cursor: pointer
+}
+
+ #dropdown p:first-of-type{
+    margin-top: 1px
+}
+
+#remove-item{
+    color: blue;
+    font-size: 75%;
+    cursor: pointer  
+}
+
+#remove-item:hover{
+    font-size: 90%;
+    text-decoration: underline blue
+}
+
+.dropdown2{
+    font-size: 75%;
+    font-weight: 600
+}
+
+
+
+
+
+

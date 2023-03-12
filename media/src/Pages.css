@@ -1,0 +1,19 @@
+.subpage{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center
+}
+
+.subpage p{
+    font-size: 120%;
+    font-weight: 600;
+    margin: 5px;
+    border-bottom: 1px black solid;
+    cursor: pointer;
+    transition: 3s all ease-in;
+
+}
+
+.subpage p:hover{
+    color: gray
+}
